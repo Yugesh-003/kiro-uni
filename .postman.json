@@ -1,0 +1,45 @@
+{
+  "version": "0.1",
+  "project": {
+    "name": "Kiro Demo - API Testing",
+    "description": "Demo workspace for learning Postman integration with Kiro",
+    "createdAt": "2026-09-29T00:00:00Z"
+  },
+  "default": {
+    "workspace": "demo-workspace",
+    "collection": "jsonplaceholder-demo",
+    "environment": "public-api"
+  },
+  "workspaces": {
+    "demo-workspace": {
+      "id": "e32ad2d3-e052-45e5-b78d-91225246e11d",
+      "name": "Kiro Demo - API Testing",
+      "type": "personal",
+      "description": "Demo workspace created with Kiro",
+      "createdAt": "2026-09-29T00:00:00Z"
+    }
+  },
+  "collections": {
+    "jsonplaceholder-demo": {
+      "id": "6fab4a96-7be9-4ff2-8ea2-50597b6d18ff",
+      "uid": "42361523-6fab4a96-7be9-4ff2-8ea2-50597b6d18ff",
+      "name": "JSONPlaceholder API Demo",
+      "workspace": "demo-workspace",
+      "description": "Testing JSONPlaceholder - a free fake REST API",
+      "requestCount": 3,
+      "createdAt": "2026-09-29T00:00:00Z"
+    }
+  },
+  "environments": {
+    "public-api": {
+      "id": "cf44705a-496d-4c47-9979-ae678fc143fb",
+      "uid": "42361523-cf44705a-496d-4c47-9979-ae678fc143fb",
+      "name": "JSONPlaceholder - Public API",
+      "workspace": "demo-workspace",
+      "variables": {
+        "API_URL": "https://jsonplaceholder.typicode.com"
+      },
+      "createdAt": "2026-09-29T00:00:00Z"
+    }
+  }
+}
